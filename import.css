@@ -1,0 +1,104 @@
+/* Simple Discord Theme */
+
+/* Change background color of app */
+.app {
+  background-color: #1d1d1d;
+}
+
+/* Change color of chat messages */
+.message {
+  color: #f2f2f2;
+}
+
+/* Change color of links in chat */
+a {
+  color: #7289da;
+}
+
+/* Change color of username in chat */
+.username-wrapper {
+  color: #ffffff;
+}
+
+/* Change color of mention in chat */
+.highlight-3qTi0A {
+  color: #fcba03;
+}
+
+/* Change color of emoji reactions */
+.reaction-24n {
+  color: #ffffff;
+}
+
+/* Change color of server name */
+.guild-header {
+  color: #ffffff;
+}
+
+/* Change color of server icon */
+.guild-header .avatar-large {
+  background-color: #7289da;
+}
+
+/* Change color of channel names */
+.channelName-1G03vu {
+  color: #ffffff;
+}
+
+/* Change color of sidebar icons */
+.icon-22AiRD {
+  color: #ffffff;
+}
+
+/* Change color of active channel in sidebar */
+.containerDefault-7RImuF .sidebar-2K8pFh .selected-3s45Ha:before {
+  background-color: #ffffff;
+}
+
+/* Modify some of the text on the interface */
+/* Note: Replace the text in quotes with your desired text */
+
+/* Server Settings: Enable Community */
+[class^="communitySettings-"] h3, 
+[class*=" communitySettings-"] h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+[class^="communitySettings-"] h3:after, 
+[class*=" communitySettings-"] h3:after {
+  content: " (Enable/Disable Server Insights)";
+  font-size: 12px;
+  font-weight: normal;
+  color: #b9bbbe;
+}
+
+/* Channel Settings: Slow Mode */
+[class^="channelSettings-"] h3, 
+[class*=" channelSettings-"] h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+[class^="channelSettings-"] h3:after, 
+[class*=" channelSettings-"] h3:after {
+  content: " (Set Slow Mode Interval)";
+  font-size: 12px;
+  font-weight: normal;
+  color: #b9bbbe;
+}
+
+/* User Settings: Language */
+[class^="userSettings-"] h3, 
+[class*=" userSettings-"] h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+[class^="userSettings-"] h3:after, 
+[class*=" userSettings-"] h3:after {
+  content: " (Change Interface Language)";
+  font-size: 12px;
+  font-weight: normal;
+  color: #b9bbbe;
+}
