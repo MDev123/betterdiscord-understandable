@@ -1,0 +1,120 @@
+/**
+* @name Understandable Text
+* @author kno
+* @version 1.0.0
+* @description more understandable lol join support server below btw
+* @invite PCcTegG8nU
+* @source https://github.com/MDev123/betterdiscord-profiletheme
+* @updateUrl https://github.com/MDev123/betterdiscord-profiletheme/blob/main/betterprofiles.theme.css
+*/
+
+/* Discord Theme with Custom Text */
+
+/* Import font */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* Set global variables */
+:root {
+  --text-color: #f2f2f2;
+  --link-color: #7289da;
+  --highlight-color: #fcba03;
+  --sidebar-icon-color: #ffffff;
+  --server-header-color: #ffffff;
+  --server-icon-color: #7289da;
+  --channel-name-color: #ffffff;
+}
+
+/* Change background color of app */
+.app {
+  background-color: #1d1d1d;
+}
+
+/* Change color of chat messages */
+.message {
+  color: var(--text-color);
+}
+
+/* Change color of links in chat */
+a {
+  color: var(--link-color);
+}
+
+/* Change color of username in chat */
+.username-wrapper {
+  color: var(--text-color);
+}
+
+/* Change color of mention in chat */
+.highlight-3qTi0A {
+  color: var(--highlight-color);
+}
+
+/* Change color of emoji reactions */
+.reaction-24n {
+  color: var(--text-color);
+}
+
+/* Change color of server name */
+.guild-header {
+  color: var(--server-header-color);
+}
+
+/* Change color of server icon */
+.guild-header .avatar-large {
+  background-color: var(--server-icon-color);
+}
+
+/* Change color of channel names */
+.channelName-1G03vu {
+  color: var(--channel-name-color);
+}
+
+/* Change color of sidebar icons */
+.icon-22AiRD {
+  color: var(--sidebar-icon-color);
+}
+
+/* Change color of active channel in sidebar */
+.containerDefault-7RImuF .sidebar-2K8pFh .selected-3s45Ha:before {
+  background-color: var(--sidebar-icon-color);
+}
+
+/* Change text of some buttons */
+.guild-settings-roles-enableCommunityButton-2iX9q3 span {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Change text of server settings labels */
+.label-3pPpA6 {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Change text of voice channel user limit label */
+.voiceLimitText-1_9KLV {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Change text of user profile modal */
+#user-profile-modal .header-23xsNx h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Change text of channel topic in chat */
+.topic-2QXzHs {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
